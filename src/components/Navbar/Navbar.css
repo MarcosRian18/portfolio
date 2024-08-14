@@ -1,0 +1,40 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.logo{
+    margin-left: 40px;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.red{
+    color: red;
+}
+
+.menu-navbar ul{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    right: 30%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-navbar ul li:hover{
+    color: red;
+}
