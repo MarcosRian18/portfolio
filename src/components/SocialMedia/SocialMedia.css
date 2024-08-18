@@ -1,0 +1,19 @@
+.social-media-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: -30px;
+  }
+  
+  .social-media-container a {
+    color: red;
+    text-decoration: none;
+  }
+
+  .social-media-container img{
+    width: 5vh;
+  }
+  
+  .social-media-container a:hover {
+    color: darkred;
+  }

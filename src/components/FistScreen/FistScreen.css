@@ -109,8 +109,8 @@
 
 .marcosImg {
   display: flex;
-  justify-content: center; /* Centraliza a imagem horizontalmente */
-  align-items: center; /* Centraliza a imagem verticalmente */
+  justify-content: center; 
+  align-items: center; 
   width: 30vw;
   height: 60vh;
   border-radius: 20px;

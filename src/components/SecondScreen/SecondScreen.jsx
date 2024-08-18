@@ -5,7 +5,7 @@ import './SecondScreen.css';
 import icon from '../../assets/fogo.png'
 
 const SecondScreen = () => {
-  const projects = Array(6).fill({ title: "Projeto", description: "Descrição breve" });
+  const projects = Array(6).fill({ title: "SysGen", description: "Um sistema de gerenciamento de Funcionários na empresa" });
 
   return (
     <div className='screen'>
