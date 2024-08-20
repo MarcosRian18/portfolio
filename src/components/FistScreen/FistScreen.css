@@ -9,13 +9,14 @@
   justify-content: center;
   padding: 0 5%;
   gap: 30px;
+  box-sizing: border-box;
 }
 
 .first-screen img {
-  background-size: cover;
   width: 25vw;
   border-radius: 25px;
   border: 2px solid red;
+  max-width: 300px;
 }
 
 .line {
@@ -46,13 +47,15 @@
 .content {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; 
   justify-content: center;
   color: white;
   position: relative;
   z-index: 2;
   width: 50%;
   margin-bottom: 10px;
+  box-sizing: border-box;
+  text-align: center; 
 }
 
 .content h1 {
@@ -98,7 +101,7 @@
   overflow: hidden;
   border-right: 0.05em solid #5a0202;
   white-space: nowrap;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 .description {
@@ -115,6 +118,8 @@
   height: 60vh;
   border-radius: 20px;
   z-index: 2;
+  max-width: 400px; 
+  max-height: 300px; 
 }
 
 @keyframes typing {
@@ -142,5 +147,31 @@
   }
   100% {
     transform: translateY(120vh) translateX(-100vw) rotate(-120deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .first-screen {
+    flex-direction: column;
+    height: auto; 
+    padding: 10px;
+  }
+
+  .first-screen img {
+    width: 60vw;
+    max-width: none; 
+  }
+
+  .content {
+    width: 100%; 
+    text-align: center; 
+  }
+
+  .marcosImg {
+    width: 80vw; 
+    height: auto; 
+    max-width: none; 
+    max-height: none;
   }
 }
