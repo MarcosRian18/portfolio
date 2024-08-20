@@ -98,6 +98,7 @@
 }
 
 .typingTitle {
+  
   overflow: hidden;
   border-right: 0.05em solid #5a0202;
   white-space: nowrap;
